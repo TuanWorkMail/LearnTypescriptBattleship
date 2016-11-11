@@ -1,0 +1,13 @@
+.gameBoard { 
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    border-collapse: collapse; 
+}
+.gameBoard th { 
+    background-color: goldenrod;
+    color: white; 
+}
+.gameBoard td, .gameBoard th { 
+    border: 1px solid white; 
+}
