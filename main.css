@@ -1,12 +1,12 @@
 .gameBoard { 
     width: 600px;
     height: 600px;
-    background-color: aqua;
+    background-color: steelblue;
     border-collapse: collapse; 
 }
 .gameBoard td, .gameBoard th { 
     border: 1px solid white; 
 }
 .destroyedCell {
-    background-color: crimson;
+    background-color: maroon;
 }
