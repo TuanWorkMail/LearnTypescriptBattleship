@@ -7,3 +7,6 @@
 .gameBoard td, .gameBoard th { 
     border: 1px solid white; 
 }
+.destroyedCell {
+    background-color: crimson;
+}

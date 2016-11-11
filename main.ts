@@ -10,4 +10,10 @@ class Greeter {
 
 var greeter = new Greeter("Hello, world!");
     
-document.body.innerHTML = greeter.greet();
+greeter.greet();
+
+$(function(){
+    $('#enemyBoard').on('click', 'td', function(){
+        $(this).toggleClass('destroyedCell');
+    });
+});
